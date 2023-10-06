@@ -12,3 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34581143a7ba4fa429cf906aab5bdc74, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
+  question: "What was the Nazi code name for a planned invasion of the United Kingdom
+    during WW2?\r"
+  answers:
+  - 
+  - 
+  - 
+  - Operation Sea Lion
+  correctAnswerIndex: 3
