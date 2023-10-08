@@ -15,8 +15,8 @@ MonoBehaviour:
   question: "What was the Nazi code name for a planned invasion of the United Kingdom
     during WW2?\r"
   answers:
-  - 
-  - 
-  - 
+  - change me
+  - change me
+  - change me
   - Operation Sea Lion
   correctAnswerIndex: 3

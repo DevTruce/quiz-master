@@ -15,7 +15,7 @@ MonoBehaviour:
   question: "What was the largest battleship of World War 2?\r"
   answers:
   - Yamato
-  - 
-  - 
-  - 
+  - change me
+  - change me
+  - change me
   correctAnswerIndex: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: After World War II, Germany was divided into how many zones of occupation?
   answers:
-  - 
-  - 
-  - 
+  - change me
+  - change me
+  - change me
   - 4
   correctAnswerIndex: 3

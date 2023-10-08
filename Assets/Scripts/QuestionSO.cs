@@ -11,7 +11,7 @@ public class QuestionSO : ScriptableObject
     [TextArea(2, 6)] // min and max amount of characters
     [SerializeField] string question = "Enter New Question Text Here";
     [SerializeField] string[] answers = new string[4];
-    [SerializeField] int correctAnswerIndex;
+    [SerializeField] int correctAnswerIndex; 
 
     ////////////////////////////////////////////
     //// Getter Method (read only access)

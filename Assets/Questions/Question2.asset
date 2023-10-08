@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What English code breaker created a machine that helped to decrypt Nazi?
   answers:
-  - 
+  - change me
   - Alan Turin
-  - 
-  - 
+  - change me
+  - change me
   correctAnswerIndex: 1
