@@ -29,12 +29,22 @@ public class Quiz : MonoBehaviour
 
     public void onAnswerSelected(int index) 
     {
+        Image buttonImage;
+
         // correct answer
         if (index == question.GetCorrectAnswerIndex())
         {
             questionText.text = "Correct answer";
-            Image buttonImage = answerButtons[index].GetComponent<Image>(); // get image component for selected button 
+            buttonImage = answerButtons[index].GetComponent<Image>(); // get image component for selected button 
             buttonImage.sprite = correctAnswerSprite; // update button sprite
+        } else 
+        {
+            correctAnswerIndex = question.GetCorrectAnswerIndex(); // get the correct answer
+            string correctAnswer = question.GetAnswer(correctAnswerIndex); // store the correct answer 
+            questionText.text = "Sorry, the correct answer was: \n" + correctAnswer; 
+            buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>(); // get image component for selected button
+            buttonImage.sprite = correctAnswerSprite; // update button sprite
+
         }
     }
 }
