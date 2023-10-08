@@ -12,7 +12,6 @@ public class QuestionSO : ScriptableObject
     [SerializeField] string question = "Enter New Question Text Here";
     [SerializeField] string[] answers = new string[4];
     [SerializeField] int correctAnswerIndex; 
-
     ////////////////////////////////////////////
     //// Getter Method (read only access)
     public string GetQuestion()
