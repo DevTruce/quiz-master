@@ -202,6 +202,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 198809312}
     m_Modifications:
+    - target: {fileID: 938960832652158542, guid: 915425cd966c44a4ba996151bda99606, type: 3}
+      propertyPath: m_text
+      value: Answer 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1875651786009286387, guid: 915425cd966c44a4ba996151bda99606, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -481,7 +485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pew.pew.pew.pew.pew.pew.pew.pew.
+  m_text: Question Here
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1268,6 +1272,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 198809312}
     m_Modifications:
+    - target: {fileID: 938960832652158542, guid: 915425cd966c44a4ba996151bda99606, type: 3}
+      propertyPath: m_text
+      value: Answer 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1875651786009286387, guid: 915425cd966c44a4ba996151bda99606, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1406,6 +1414,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 198809312}
     m_Modifications:
+    - target: {fileID: 938960832652158542, guid: 915425cd966c44a4ba996151bda99606, type: 3}
+      propertyPath: m_text
+      value: Answer 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1875651786009286387, guid: 915425cd966c44a4ba996151bda99606, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1544,6 +1556,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 198809312}
     m_Modifications:
+    - target: {fileID: 938960832652158542, guid: 915425cd966c44a4ba996151bda99606, type: 3}
+      propertyPath: m_text
+      value: Answer 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1875651786009286387, guid: 915425cd966c44a4ba996151bda99606, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
